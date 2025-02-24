@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: rgb(109, 66, 66);
+    color: rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.karta{
+    background-color: rgb(137, 145, 145);
+    margin: 10px;
+    padding: 18px;
+    width: 300px;
+}
+
+.cely{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+img{
+    width: 300px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 8%;
+}
+
+.velky{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+button{
+    color: black;
+    background-color: rgb(238, 16, 227);
+    border-radius: 40%;
+    height: 6%;
+}
+
+button:hover{
+    background-color: rgb(95, 16, 62);
+    color: black;
+    transition: background-color ease-in 1s;
+}
+
+.gif{
+    display: flex;
+    justify-content: right;
+    
+}
+
+.obrazek-zahlavi {
+    width: 200px;
+}
